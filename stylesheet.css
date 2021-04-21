@@ -17,6 +17,8 @@ div {
 footer {
   border-width: 1px;
   border-style: dotted;
+  display: flex;
+  flex-direction: column;
 }
 
 main {
@@ -28,6 +30,7 @@ main {
 nav {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 #left-links {
@@ -41,6 +44,22 @@ nav {
 }
 
 #search-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+#lower-footer-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#left-footer-links {
+  display: flex;
+  flex-direction: row;
+}
+
+#right-footer-links {
   display: flex;
   flex-direction: row;
 }
