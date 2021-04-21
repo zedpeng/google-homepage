@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  border-width: 1px;
+  border-style: dotted;
+}
+
+div {
+  border-width: 1px;
+  border-style: dotted;
+}
+
+footer {
+  border-width: 1px;
+  border-style: dotted;
+}
