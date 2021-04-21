@@ -39,3 +39,8 @@ nav {
   display: flex;
   flex-direction: row;
 }
+
+#search-buttons {
+  display: flex;
+  flex-direction: row;
+}
