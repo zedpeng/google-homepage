@@ -17,3 +17,8 @@ footer {
   border-width: 1px;
   border-style: dotted;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+}
