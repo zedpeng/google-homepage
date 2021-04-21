@@ -6,6 +6,7 @@ body {
 nav {
   border-width: 1px;
   border-style: dotted;
+  justify-content: space-around;
 }
 
 div {
@@ -21,4 +22,19 @@ footer {
 main {
   display: flex;
   flex-direction: column;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+#left-links {
+  display: flex;
+  flex-direction: row;
+}
+
+#right-links {
+  display: flex;
+  flex-direction: row;
 }
